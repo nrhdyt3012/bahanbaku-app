@@ -12,14 +12,14 @@ Dibuat untuk Fullstack Developer Practical Test (**Studi Kasus 4 — Transaksi B
 
 <table>
   <tr>
-    <td align="center"><img src="01-stok.png" width="190"><br><sub><b>Stok</b><br>Daftar stok terkini</sub></td>
-    <td align="center"><img src="02-keluar.png" width="190"><br><sub><b>Barang Keluar</b><br>Form Barang Keluar</sub></td>
+    <td align="center"><img src="01-stok.png" width="100%"><br><sub><b>Stok</b><br>Daftar stok terkini</sub></td>
+    <td align="center"><img src="02-keluar.png" width="100%"><br><sub><b>Barang Keluar</b><br>Form Barang Keluar</sub></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td align="center"><img src="03-retur.png" width="190"><br><sub><b>Pengembalian</b><br>Qty dibatasi sisa</sub></td>
-    <td align="center"><img src="04-riwayat.png" width="190"><br><sub><b>Riwayat</b><br>Stok sebelum → sesudah</sub></td>
+    <td align="center"><img src="03-retur.png" width="100%"><br><sub><b>Pengembalian</b><br>Qty dibatasi sisa</sub></td>
+    <td align="center"><img src="04-riwayat.png" width="100%"><br><sub><b>Riwayat</b><br>Stok sebelum → sesudah</sub></td>
   </tr>
 </table>
 ### Hasil pengujian otomatis
