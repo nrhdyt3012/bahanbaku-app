@@ -25,9 +25,9 @@ Dibuat untuk Fullstack Developer Practical Test (**Studi Kasus 4 — Transaksi B
 ### Hasil pengujian otomatis
 
 Skrip `npm run test:smoke` menguji alur bisnis utama: stok tidak cukup, rollback, batas retur, validasi input, dan 10 request bersamaan.
-
+<p align="center">
 <img src="05-Testing.png" width="640" alt="Hasil smoke test: 26 lulus, 0 gagal">
-
+</p>
 ## Fitur
 
 | Kebutuhan | Implementasi |
