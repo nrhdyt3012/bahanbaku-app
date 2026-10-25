@@ -12,10 +12,10 @@ Dibuat untuk Fullstack Developer Practical Test (**Studi Kasus 4 — Transaksi B
 
 <table>
   <tr>
-    <td align="center"><img src="1.stok.png" width="190"><br><sub><b>Stok</b><br>Daftar stok terkini</sub></td>
-    <td align="center"><img src="2.barang keluar.png" width="190"><br><sub><b>Barang Keluar</b><br>Form dan validasi</sub></td>
-    <td align="center"><img src="3.barang retur.png" width="190"><br><sub><b>Pengembalian</b><br>Qty dibatasi sisa</sub></td>
-    <td align="center"><img src="4.riwayat.png" width="190"><br><sub><b>Riwayat</b><br>Stok sebelum → sesudah</sub></td>
+    <td align="center"><img src="01-stok.png" width="190"><br><sub><b>Stok</b><br>Daftar stok terkini</sub></td>
+    <td align="center"><img src="02-keluar.png" width="190"><br><sub><b>Barang Keluar</b><br>Form dan validasi</sub></td>
+    <td align="center"><img src="03-retur.png" width="190"><br><sub><b>Pengembalian</b><br>Qty dibatasi sisa</sub></td>
+    <td align="center"><img src="04-riwayat.png" width="190"><br><sub><b>Riwayat</b><br>Stok sebelum → sesudah</sub></td>
   </tr>
 </table>
 
@@ -23,7 +23,7 @@ Dibuat untuk Fullstack Developer Practical Test (**Studi Kasus 4 — Transaksi B
 
 Skrip `npm run test:smoke` menguji alur bisnis utama: stok tidak cukup, rollback, batas retur, validasi input, dan 10 request bersamaan.
 
-<img src="5.Testing.png" width="640" alt="Hasil smoke test: 26 lulus, 0 gagal">
+<img src="05-Testing.png" width="640" alt="Hasil smoke test: 26 lulus, 0 gagal">
 
 ## Fitur
 
