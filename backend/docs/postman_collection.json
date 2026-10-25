@@ -1,0 +1,168 @@
+{
+  "info": {
+    "_postman_id": "87d56c0e-50f9-4a3d-a062-908db612579c",
+    "name": "Bahan Baku API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "44040878",
+    "_collection_link": "https://go.postman.co/collection/44040878-87d56c0e-50f9-4a3d-a062-908db612579c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "List Bahan",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Tambah bahan",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/bahan-baku",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "bahan-baku"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Barang keluar",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   { \"tanggal\": \"2026-10-25\", \"penerima\": \"Produksi\",\r\n     \"items\": [ { \"bahan_id\": 5, \"qty\": -1 }] }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/keluar",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "keluar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Detail Keluar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/keluar/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "keluar",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Pengembalian",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/pengembalian",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "pengembalian"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Stok",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Riwayat",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/riwayat",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "riwayat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Hapus Bahan Dipakai",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    }
+  ]
+}
